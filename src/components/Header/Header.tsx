@@ -2,7 +2,7 @@ import { Button } from "../Button/Button";
 
 const Header = () => {
   return (
-    <header className="w-screen flex justify-between items-center p-5">
+    <header className="w-screen h-[60px] flex justify-between items-center p-5">
       <Button
         variant="again"
         className="font-myfont again_btn flex justify-center items-center cursor-pointer"

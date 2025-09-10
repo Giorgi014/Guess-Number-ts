@@ -2,12 +2,22 @@
 
 @font-face {
   font-family: "PressStart_Regular";
-  src: url("./assets/fonts/Press_Start_2P/PressStart2P-Regular.ttf") format("woff2");
+  src: url("./assets/fonts/Press_Start_2P/PressStart2P-Regular.ttf")
+    format("woff2");
 }
 
 @layer utilities {
   .font-myfont {
     font-family: "PressStart_Regular";
+  }
+  .white {
+    color: rgb(236, 236, 236);
+  }
+  .white_bg {
+    background-color: rgb(236, 236, 236);
+  }
+  .black {
+    color: #000;
   }
   .again_btn {
     width: clamp(120px, 30vw, 140px);
@@ -16,16 +26,27 @@
     background-color: rgb(236, 236, 236);
     white-space: nowrap;
   }
-  .between{
+  .between {
     color: rgb(236, 236, 236);
-    font-size: clamp(0.9rem, 2vw, 1rem);
+    font-size: clamp(0.75rem, 2vw, 1rem);
+  }
+  .guess_num {
+    color: rgb(236, 236, 236);
+    font-size: clamp(1.4rem, 5vw, 3rem);
+    margin-top: clamp(15px, 5vw, 40px);
+  }
+  .margin_top {
+    margin-top: clamp(100px, 20vw, 200px);
+  }
+  .input{
+    border: 2px solid rgb(236, 236, 236);
   }
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: rgb(30, 30, 30);
 }
