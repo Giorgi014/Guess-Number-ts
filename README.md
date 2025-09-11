@@ -1,3 +1,78 @@
+# Guess My Number Game
+
+A web-based number guessing game built with React, TypeScript, Vite, and TailwindCSS.
+
+## Game Principle
+
+- The game randomly selects a secret number between 1 and 20.
+- You start with a score of 20.
+- Enter your guess and click **Check!**.
+- If your guess is correct, you win and your score may become the new high score.
+- If your guess is wrong, you lose one point and get a hint ("Too high!" or "Too low!").
+- If your score reaches 0, you lose the game.
+- Click **Again!** to restart and try again.
+
+## How to Play
+
+1. Enter a number between 1 and 20 in the input box.
+2. Click **Check!** to submit your guess.
+3. Read the message for hints and track your score.
+4. Try to guess the correct number before your score reaches zero.
+5. Click **Again!** to play another round.
+
+## Tech Stack
+
+- **React** (UI library)
+- **TypeScript** (type safety)
+- **Vite** (build tool)
+- **TailwindCSS** (utility-first CSS framework)
+- **React Router DOM** (routing)
+- **React Icons** (icon library)
+- **ESLint** (linting)
+
+## Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-username/guess-number-ts.git
+   cd guess-number-ts
+   ```
+
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+
+## Running the Project
+
+- **Start development server:**
+  ```sh
+  npm run dev
+  ```
+
+- **Build for production:**
+  ```sh
+  npm run build
+  ```
+
+- **Preview production build:**
+  ```sh
+  npm run preview
+  ```
+
+- **Lint the code:**
+  ```sh
+  npm run lint
+  ```
+
+## License
+
+Font used: [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P) under the SIL Open Font License ([OFL.txt](src/assets/fonts/Press_Start_2P/OFL.txt)).
+
+---
+
+Enjoy playing and improving your guessing skills!
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
